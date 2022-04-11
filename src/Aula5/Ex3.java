@@ -1,8 +1,6 @@
+package Aula5;
+
 import java.util.Scanner;
-
-import javax.swing.text.AbstractDocument.BranchElement;
-
-//spackage Aula5;
 
 public class Ex3 {
     public static void main(String[] args) {
@@ -98,6 +96,7 @@ public class Ex3 {
                     System.out.println("Invalid operation.");
                     break;
             }
+            sc.close();
         }
     }
 }

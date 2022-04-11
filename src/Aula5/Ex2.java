@@ -1,4 +1,4 @@
-//package Aula5;
+package Aula5;
 
 import java.util.Scanner;
 
@@ -44,5 +44,6 @@ public class Ex2 {
                     break;
             }
         }
+        sc.close();
     }
 }
