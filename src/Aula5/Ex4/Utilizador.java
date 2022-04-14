@@ -1,10 +1,13 @@
-//package Aula5.Ex4;
+package Aula5.Ex4;
+
+//import java.util.ArrayList;
 
 public class Utilizador {
     
     private String nome;
     private int nMec;
     private String curso;
+    //private static ArrayList<Integer> id_emprestado = new ArrayList<Integer>();
 
     public Utilizador(String nome, int nMec, String curso) {
         this.nMec = nMec;
@@ -26,7 +29,7 @@ public class Utilizador {
     }
 
     public void setCurso(String curso) { this.curso = curso; }
-
+    
     public String toString() { return "Aluno: " + this.nMec + "; " + this.nome + "; " + this.curso; }
 
     public boolean validNMec() { return this.nMec >= 0; }

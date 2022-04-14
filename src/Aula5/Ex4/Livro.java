@@ -1,4 +1,4 @@
-//package Aula5.Ex4;
+package Aula5.Ex4;
 
 public class Livro {
     
@@ -25,7 +25,7 @@ public class Livro {
 
     public String getTipoEmprestimo() { return this.tipoEmprestimo; }
 
-    public void setTitulo(String titulo) {}
+    public void setTitulo(String titulo) { this.titulo = titulo; }
 
     public void setTipoEmprestimo(String tipoEmprestimo) { this.tipoEmprestimo = tipoEmprestimo; }
 
