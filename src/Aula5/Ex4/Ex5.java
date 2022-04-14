@@ -87,5 +87,6 @@ public class Ex5 {
                     break;
             }
         }
+        sc.close();
     }
 }
