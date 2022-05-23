@@ -15,7 +15,7 @@ public class ALDemo {
         for (int i = 0; i < c1.size(); i++)
             System.out.println("Elemento: " + c1.get(i));
 
-        //*ArrayList
+        // *ArrayList
         ArrayList<String> c2 = new ArrayList<>();
         c2.add("Vento");
         c2.add("Calor");
@@ -29,7 +29,7 @@ public class ALDemo {
         c2.remove(0);
         System.out.println(c2);
 
-        //*HashSet
+        // *HashSet
         Set<Pessoa> c3 = new HashSet<>();
         Pessoa rui = new Pessoa("Rui Emanuel", 54321, new Date(25, 9, 2001));
         Pessoa ramiro = new Pessoa("Ramiro", 12345, new Date(20, 12, 2000));
@@ -42,9 +42,11 @@ public class ALDemo {
         c3.add(constantino);
         c3.add(bruno);
         c3.add(bruno);
-        for(Pessoa pessoa : c3) System.out.println(pessoa);
+        Iterator<Pessoa> itr = c3.iterator();
+        while (itr.hasNext())
+            System.out.println(itr.next());
 
-        //*TreeSet
+        // *TreeSet
         // Set<Aula7.Ex2.Date> c4 = new TreeSet<>();
         // DateYMD d1 = new DateYMD(23, 4, 1944);
         // DateYMD d2 = new DateYMD(14, 8, 1961);
@@ -52,6 +54,8 @@ public class ALDemo {
         // c4.add(d1);
         // c4.add(d2);
         // c4.add(d3);
-        // for (Aula7.Ex2.Date date : c4) System.out.println(date);
+        // Iterator<DateYMD> itr2 = c4.iterator();
+        // while(itr2.hasNext())
+        //     System.out.println(itr2.next());
     }
 }
