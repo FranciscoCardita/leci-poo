@@ -3,3 +3,4 @@ App.java
 .vscode/settings.json
 *.class
 *.txt
+!words.txt
