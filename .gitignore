@@ -5,3 +5,4 @@ App.java
 *.txt
 !words.txt
 !src/aula11_files/*.txt
+!src/aula12_files/*.txt
