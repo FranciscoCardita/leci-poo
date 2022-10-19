@@ -1,5 +1,5 @@
-## Object-Oriented Programming
+## Programação Orientada a Objetos
 
-Possible solutions to exercises given during [`OOP`](https://www.ua.pt/en/uc/12279) classes in *Universidade de Aveiro*, using `Java`.
+Possíveis soluções dos guiões lecionados nas aulas de [`POO`](https://www.ua.pt/pt/uc/12279) na *Universidade de Aveiro*.
 
-> These are merely demos as they may contain errors and bad practices.
+> Estas resoluções podem conter erros e más práticas.
